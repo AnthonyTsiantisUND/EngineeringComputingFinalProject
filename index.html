@@ -15,6 +15,38 @@
             <a class="navbar-brand" href="#">Airplane Tracker</a>
             </div>
         </nav>
+        <div class="title">
+          <div class="main-title">
+            <h1>Is Aviation a leading cause of global warming?</h1>
+          </div>
+          <div class="title-text">
+            <h2>Through this website we will examine the effects the aviation industry has had on global warming</h2>
+          </div>
+        </div>
+        <div class="subtitle">
+            <h1>Is global warming even real?</h1>
+            <h3>Rising levels of greenhouse gases are responsible for warming our our planet</h3>
+            <h5>The following visualization depicts the Carbon Dioxide Levels in our atmosphere from 2013-2023</h5>
+            <p>As it can be seen, the levels of CO2 in our atmosphere are rising drastically</p>
+            <iframe src="co2_emissions.html" height="800" width="1200" frameborder="0"></iframe>
+
+            <h5 style="margin-top: 50px;">The following visualization depicts the Nitrogen Monoxide levels in our atmosphere from 2001-2022</h5>
+            <p>As it can be seen, the levels of NO in our atmosphere are also rising drastically</p>
+            <iframe src="no_emissions.html" height="800" width="1200" frameborder="0"></iframe>
+
+            <h5 style="margin-top: 50px;">The following visualization depicts the Methane levels in our atmosphere from 1983-2022</h5>
+            <p>As it can be seen, the levels of CH4 in our atmosphere are also rising drastically</p>
+            <iframe src="ch4_emissions.html" height="800" width="1200" frameborder="0"></iframe>
+
+            <h5 style="margin-top: 50px;">The following visualization depicts the change in Temperature (degrees celsius) from 1880-2022</h5>
+            <p>As it can be seen,  our atmospheric temperature has been rising as a result of these greenhouse gas emissions</p>
+            <iframe src="temp_change.html" height="800" width="1200" frameborder="0"></iframe>
+
+        </div>
+        <div class="subtitle">
+          <h1>The different types of Aircraft</h1>
+          <h2>Aircraft can be used for a plethora of reasons, including military, logistics and agriculture</h2>
+        </div>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -26,21 +58,18 @@
                 <img src="militaryjet.webp" class="d-block w-100" alt="Military Jet">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Military Plane</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="fedex.webp" class="d-block w-100" alt="Fedex">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Commercial Cargo Plane</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="cropduster.jpeg" class="d-block w-100" alt="Crop Duster">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Crop Duster</h5>
-                    <p>Some representative placeholder content for the Third slide.</p>
                 </div>
               </div>
             </div>
@@ -53,11 +82,18 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <br>
-        <div class="subtitle-main">
-            <h1>Aviation Emissions</h1>
-            <p>Aviation Emissions are a leading cause of the rising levels of Carbon dioxide in our atmosphere!</p>
-            <a type="button" class="btn btn-success" href="co2_emissions.html">Click here to view CO2 Levels over the years!</a>
+        <div class="subtitle">
+          <h1>There are many different sectors that utilize aviation...but which pollute the most?</h1>
+          <p>The following bar chart depicts the CO2 emissions per aviation sector</p>
+        </div>
+        <div class="subtitle">
+          <h1>How much do you pollute?</h1>
+          <p>
+            The recreational sector is notorious for air pollution.
+            Some countries have many more airlines than others, causing them to have a larger carbon footprint
+          </p>
+          <p>The following visualization shows what countries have more or less airlines.</p>
+          <iframe src="airlines.html" height="800" width="1200" frameborder="0"></iframe>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
