@@ -5,6 +5,6 @@
 ## Steps to run program (locally)
 1. Clone repository
 2. Install all dependencies in dependencies.txt `pip install -r dependencies.txt`
-3. Run main.py using `python3 main.py` to call all API's and update visualizations
+3. Run main.py using `python main.py` or `python3 main.py` to call all API's and update visualizations
 4. Run `open index.html` on MacOS or `start index.html` on windows to view the website
 
