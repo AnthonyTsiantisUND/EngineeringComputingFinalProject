@@ -5,5 +5,5 @@
 ## Steps to run program (locally)
 1. Install all dependencies in dependencies.txt `pip install -r dependencies.txt`
 2. Run main.py using `python3 main.py` to call all API's and update visualizations
-3. open index.html to view the website
+3. Run `open index.html` to view the website
 
