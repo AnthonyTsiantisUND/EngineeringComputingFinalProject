@@ -3,7 +3,7 @@
 [Google Drive](https://drive.google.com/drive/folders/1gY1Q5m4k8vNXOHDmye5olgHNwEytj_18?usp=share_link)
 
 ## Steps to run program (locally)
-1. Install all dependencies in dependencies.txt `pip install -r dedependencies.txt`
+1. Install all dependencies in dependencies.txt `pip install -r dependencies.txt`
 2. Run main.py using `python3 main.py` to call all API's and update visualizations
 3. open index.html to view the website
 
